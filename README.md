@@ -11,3 +11,9 @@
 2. Associate the Agent with the Management Console with the Group or Site Token. Run sudo /opt/sentinelone/bin/sentinelctl management token set <eyJ1cmwiOiAiaHR0cHM6Ly91c2VhMS1hdHQtY3liZXJzZWN1cml0eS0ydGllci1tc3NwLnNlbnRpbmVsb25lLm5ldCIsICJzaXRlX2tleSI6ICIyMDcxNTQ4YjZkZmYzYWRmIn0=>
 3. Start the Agent services. Run 'sudo /opt/sentinelone/bin/sentinelctl control start'.
 4.  Run 'sudo /opt/sentinelone/bin/sentinelctl control status'.
+
+# Steps to uninstall AlienVault agent on Linux 
+1. Change user to root user 
+2. Change the directory to /usr/bin
+3. Enter the following command './alienvault-agent.sh uninstall'
+ 
